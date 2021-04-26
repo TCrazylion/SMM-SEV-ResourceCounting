@@ -1,0 +1,1 @@
+cmd_/home/sevtest/Desktop/va2pa/Module.symvers := sed 's/ko$$/o/' /home/sevtest/Desktop/va2pa/modules.order | scripts/mod/modpost -m -a   -o /home/sevtest/Desktop/va2pa/Module.symvers -e -i Module.symvers   -T -
